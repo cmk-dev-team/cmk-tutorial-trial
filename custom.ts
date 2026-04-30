@@ -1,5 +1,5 @@
 /**
- * エージェントをひらがなで操作するブロック
+ * エージェントをやさしいことばで操作するブロック
  */
 
 //% emitAsConstant
@@ -18,23 +18,31 @@ declare const enum むき {
     した,
 }
 
-namespace えーじぇんと {
+//% emitAsConstant
+declare const enum まわすむき {
+    //% block="ひだり" enumval=0
+    ひだり,
+    //% block="みぎ" enumval=1
+    みぎ,
+}
 
-    //% block="えーじぇんとを じぶんの いちに もどす"
+namespace エージェント {
+
+    //% block="エージェントを じぶんの ところに よぶ"
     //% blockId=agent_teleport_jp
     //% color="#CF8B17"
-    export function もどす(): void {
+    export function よぶ(): void {
         agent.teleportToPlayer();
     }
 
-    //% block="えーじぇんとの むきを $dir に かえる"
-    //% blockId=agent_setdir_jp
+    //% block="エージェントを $dir に まわす"
+    //% blockId=agent_turn_jp
     //% color="#CF8B17"
-    export function むきをかえる(dir: むき): void {
-        agent.setDirection(dir as SixDirection, dir as SixDirection);
+    export function まわす(dir: まわすむき): void {
+        agent.turn(dir as TurnDirection);
     }
 
-    //% block="えーじぇんとを $dir に $blocks ぶろっく うごかす"
+    //% block="エージェントを $dir に $blocks ぶろっく うごかす"
     //% blockId=agent_move_jp
     //% color="#CF8B17"
     //% blocks.min=1 blocks.max=20 blocks.defl=1
