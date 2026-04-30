@@ -39,7 +39,7 @@ namespace エージェント {
     //% blockId=agent_turn_jp
     //% color="#CF8B17"
     export function まわす(dir: まわすむき): void {
-        agent.turn(dir as TurnDirection);
+        agent.turn(dir as number);
     }
 
     //% block="エージェントを $dir に $blocks ぶろっく うごかす"
@@ -47,6 +47,6 @@ namespace エージェント {
     //% color="#CF8B17"
     //% blocks.min=1 blocks.max=20 blocks.defl=1
     export function うごかす(dir: むき, blocks: number): void {
-        agent.move(dir as SixDirection, blocks);
+        agent.move(dir as number, blocks);
     }
 }
