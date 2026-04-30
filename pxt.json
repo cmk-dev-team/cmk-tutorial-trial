@@ -1,6 +1,6 @@
 {
     "name": "cmk-tutorial-trial",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,8 +9,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "1-1/v1.md",
-        "_locales/ja/core-strings.json"
+        "main/v1.md",
+        "challenge/v1.md"
     ],
     "testFiles": [
         "test.ts"

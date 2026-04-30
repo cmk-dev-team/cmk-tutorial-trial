@@ -1,5 +1,0 @@
-{
-    "agent.move|block": "エージェントを %direction|に %blocks|ブロック うごかす",
-    "agent.turn|block": "エージェントを %direction|に まわす",
-    "agent.teleportToPlayer|block": "エージェントを よぶ"
-}
