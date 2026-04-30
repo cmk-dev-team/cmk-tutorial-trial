@@ -9,8 +9,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "custom.ts",
-        "1-1/v1.md"
+        "1-1/v1.md",
+        "_locales/ja/core-strings.json"
     ],
     "testFiles": [
         "test.ts"
