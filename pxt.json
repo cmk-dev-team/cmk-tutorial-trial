@@ -1,6 +1,6 @@
 {
     "name": "cmk-tutorial-trial",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -11,8 +11,10 @@
         "main.ts",
         "main/v1.md",
         "main/v1_hiragana.md",
+        "main/v2_hiragana.md",
         "challenge/v1.md",
-        "challenge/v1_hiragana.md"
+        "challenge/v1_hiragana.md",
+        "challenge/v2_hiragana.md"
     ],
     "testFiles": [
         "test.ts"
