@@ -24,5 +24,5 @@ hiraganaPlayer.onChat("go", function () {
 ```
 
 ```package
-hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.6.0
+hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.6.1
 ```
