@@ -10,7 +10,9 @@
         "main.blocks",
         "main.ts",
         "main/v1.md",
-        "challenge/v1.md"
+        "main/v1_hiragana.md",
+        "challenge/v1.md",
+        "challenge/v1_hiragana.md"
     ],
     "testFiles": [
         "test.ts"
