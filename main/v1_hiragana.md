@@ -8,15 +8,15 @@
 ひらがなのブロックでプログラミングをたいけんしよう！
 
 ```template
-player.onChat("go", function () {
+hiraganaPlayer.onChat("go", function () {
 })
 ```
 
 ```ghost
-player.onChat("go", function () {
-    agent.teleportToPlayer()
-    agent.turn(LEFT_TURN)
-    hiragana.moveAgentForward(1)
+hiraganaPlayer.onChat("go", function () {
+    hiraganaAgent.callAgent()
+    hiraganaAgent.turnAgent(hiraganaAgent.TurnDirection.Left)
+    hiraganaAgent.moveAgent(hiraganaAgent.Direction.Forward, 1)
     for (let index = 0; index < 4; index++) {
 
     }
@@ -24,5 +24,5 @@ player.onChat("go", function () {
 ```
 
 ```package
-hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.0.2
+hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.4.1
 ```
