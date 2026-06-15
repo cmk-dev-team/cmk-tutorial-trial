@@ -22,11 +22,11 @@ hiraganaPlayer.onChat("go", function () {
         hiraganaAgent.setAgentItem(GRASS, 1, 1)
         hiraganaAgent.placeAgent(hiraganaAgent.Direction.Forward)
         hiraganaAgent.turnAgent(hiraganaAgent.TurnDirection.Left)
-        hiraganaMobs.spawn(CHICKEN, hiraganaPositions.relativePosition(0, 0, 0))
+        mobs.hiraganaSpawn(CHICKEN, hiraganaPositions.relativePosition(0, 0, 0))
     }
 })
 ```
 
 ```package
-hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.4.1
+hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.5.0
 ```
