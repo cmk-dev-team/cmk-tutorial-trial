@@ -26,3 +26,7 @@ player.onChat("go", function () {
     }
 })
 ```
+
+```package
+hiragana=github:cmk-dev-team/cmk-hiragana-blocks#v1.0.2
+```
