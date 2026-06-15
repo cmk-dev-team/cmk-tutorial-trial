@@ -1,10 +1,11 @@
 {
     "name": "cmk-tutorial-trial",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "",
     "dependencies": {
         "core": "*",
-        "builder": "*"
+        "builder": "*",
+        "hiragana": "github:cmk-dev-team/cmk-hiragana-blocks#v1.0.0"
     },
     "files": [
         "main.blocks",
