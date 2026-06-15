@@ -18,7 +18,7 @@ player.onChat("go", function () {
         blocks.place(GRASS, agent.getPosition())
         player.teleport(world(0, 0, 0))
         agent.teleportToPlayer()
-        hiragana.moveAgent(hiragana.MoveDirection.Forward, 1)
+        hiragana.moveAgentForward(1)
         agent.setItem(GRASS, 1, 1)
         agent.place(FORWARD)
         agent.turn(LEFT_TURN)
