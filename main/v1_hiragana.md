@@ -4,8 +4,8 @@
 ### @hideDone true
 
 # マイプロたいけんかい
-## ジュニアコース
-ひらがなのブロックでプログラミングをたいけんしよう！
+## もんだい
+プログラミングをたいけんしよう！
 
 ```template
 hiraganaPlayer.onChat("go", function () {

@@ -4,8 +4,8 @@
 ### @hideDone true
 
 # マイプロたいけんかい
-## ジュニアコース チャレンジ
-ひらがなのブロックで、すきな もんだいを やってみよう！
+## チャレンジ
+すきな もんだいを やってみよう！
 
 ```template
 hiraganaPlayer.onChat("go", function () {
